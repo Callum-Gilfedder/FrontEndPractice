@@ -9,3 +9,39 @@ body {
 p {
     color: red;
 }
+
+
+header {
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 30px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 250px;
+    background-color: lightgray;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
