@@ -1,5 +1,6 @@
 body { 
-    background-color: lightgrey;
+    background-color: crimson; 
+    color: white;
 }
 
 body {
@@ -7,12 +8,13 @@ body {
 }
 
 p {
-    color: grey;
+    color: white;
+    
 }
 
 
 header {
-    background-color: lightgray;
+    background-color: crimson;
     margin: 0 auto;
 }
 
@@ -25,9 +27,6 @@ header::after {
 h1 {
     float: left;
 }
-
-
-
 
 nav {
     float: right;
@@ -43,8 +42,8 @@ nav ul {
 nav li {
     display: inline-block;
     font-size: larger;
-    margin-left: 150px;
-    background-color: lightgray;
+    margin-left: 100px;
+    background-color: crimson;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
@@ -54,11 +53,19 @@ nav li {
 }
 
 nav li :hover {
-    color:  slategray;
+    color:  pink;
 }
 
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+h2 :hover {
+    color: pink;
+}
+
+h3 :hover{
+    color: pink; 
 }
