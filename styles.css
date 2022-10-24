@@ -1,5 +1,5 @@
 body { 
-    background-color: lightgoldenrodyellow;
+    background-color: lightgrey;
 }
 
 body {
@@ -12,7 +12,7 @@ p {
 
 
 header {
-    background-color: aqua;
+    background-color: lightgray;
     margin: 0 auto;
 }
 
@@ -32,16 +32,20 @@ nav {
 
 nav ul {
     margin: 0;
-    padding: 30px;
+    padding: 21px;
     list-style: none;
+
 }
 
 nav li {
     display: inline-block;
-    margin-left: 250px;
+    font-size: larger;
+    margin-left: 150px;
     background-color: lightgray;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+
 }
