@@ -7,7 +7,7 @@ body {
 }
 
 p {
-    color: red;
+    color: grey;
 }
 
 
@@ -25,6 +25,9 @@ header::after {
 h1 {
     float: left;
 }
+
+
+
 
 nav {
     float: right;
@@ -48,4 +51,14 @@ nav li {
     padding-bottom: 5px;
     text-decoration: none;
 
+}
+
+nav li :hover {
+    color:  slategray;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
 }
