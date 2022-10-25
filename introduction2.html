@@ -20,8 +20,8 @@
     <header>
         <div class="container">
 
-        <h1 id = "icon">Callum Gilfedder</h1>
-        <nav>
+            <img src="paint-brush-icon-10-inverted.png" id = "icon" alt="" style="width: 35px; position:relative; top:20px; left: 20px;">
+            <nav>
             <ul>
                 <li><a class="navbar"  href="home.html">Home</a></li>
                 <li><a class="navbar" href="introduction2.html">Introduction</a></li>
@@ -47,12 +47,16 @@
                 Continue </a></h2>
         
                 <script> 
-    
                     var icon = document.getElementById("icon");
                     icon.onclick = function(){
                         document.body.classList.toggle("altmode");
+                            if(document.body.classList.contains("altmode")){
+                                icon.src = "paint-brush-icon-10.png";
+                            }else {
+                                icon.src = "paint-brush-icon-10-inverted.png";
+                            }
+
                     }
-            
                 </script>
     </body>
 </html>
