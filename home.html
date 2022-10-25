@@ -17,7 +17,7 @@
     <header>
         <div class="container">
 
-        <h1>Callum Gilfedder</h1>
+        <h1 id = "icon">Callum Gilfedder</h1>
         <nav>
             <ul>
                 <li><a class="navbar"  href="home.html">Home</a></li>
@@ -25,6 +25,7 @@
                 <li><a class="navbar" href="experience-education2.html">Experience and education</a></li>
                 <li><a class="navbar" href="portfolio.html">Portfolio</a></li>
                 <li><a class="navbar" href="portfolio.html">Contact Me</a></li>
+
             </ul>
         </nav>
 
@@ -38,7 +39,15 @@
         <h2 style= "position: relative; left: 700px; bottom: 80px; font-size: 70px;" class="fadein" > <a href="introduction2.html">Welcome</a> </h2>
         <h3 style = "position: relative; left: 720px; bottom: 140px"> <a href="introduction2.html" class="fadeinslow">Click here to get an introduction to me </a> </h3>
 
-            
+        
+    <script> 
+    
+        var icon = document.getElementById("icon");
+        icon.onclick = function(){
+            document.body.classList.toggle("altmode");
+        }
+
+    </script>
 
     </body>
 </html>

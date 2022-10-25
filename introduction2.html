@@ -20,7 +20,7 @@
     <header>
         <div class="container">
 
-        <h1>Callum Gilfedder</h1>
+        <h1 id = "icon">Callum Gilfedder</h1>
         <nav>
             <ul>
                 <li><a class="navbar"  href="home.html">Home</a></li>
@@ -45,5 +45,14 @@
             professionals. During my studies and current experience I have found a passion <br> for software development that I wish to pursue. </h3>
             <h2 style= "position: relative; left: 1250px; bottom: -350px; font-size: 45px;" class="fadeinveryslow"> <a href = "experience-education2.html"> 
                 Continue </a></h2>
+        
+                <script> 
+    
+                    var icon = document.getElementById("icon");
+                    icon.onclick = function(){
+                        document.body.classList.toggle("altmode");
+                    }
+            
+                </script>
     </body>
 </html>

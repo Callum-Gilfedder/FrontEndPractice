@@ -17,7 +17,7 @@
     <header>
         <div class="container">
 
-        <h1>Callum Gilfedder</h1>
+        <h1 id="icon">Callum Gilfedder</h1>
         <nav>
             <ul>
                 <li><a class="navbar"  href="home.html">Home</a></li>
@@ -47,7 +47,14 @@
         <h2 style= "position: relative; left: 800px; bottom: 226px; font-size: 40px;">Experience</h2>
         <h3 style="font-size: 20px; position: relative; left: 800px; bottom: 250px;";> <u>Cloud Specialist at Go Deploy</u> </h3>
 
-
+        <script> 
+    
+            var icon = document.getElementById("icon");
+            icon.onclick = function(){
+                document.body.classList.toggle("altmode");
+            }
+    
+        </script>
             
 
     </body>

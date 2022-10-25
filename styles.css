@@ -1,6 +1,18 @@
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+    --tertiary-color: crimson;
+}
+
+.altmode {
+    --primary-color: white;
+    --secondary-color: black;
+    --tertiary-color: crimson;
+}
+
 body { 
-    background-color: crimson; 
-    color: white;
+    background-color: var(--primary-color); 
+    color: var(--secondary-color);
 }
 
 body {
@@ -8,13 +20,13 @@ body {
 }
 
 p {
-    color: white;
+    color: var(--secondary-color);
     
 }
 
 
 header {
-    background-color: crimson;
+    background-color: var(--primary-color);
     margin: 0 auto;
 }
 
@@ -43,7 +55,7 @@ nav li {
     display: inline-block;
     font-size: larger;
     margin-left: 100px;
-    background-color: crimson;
+    background-color: var(--primary-color);
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
@@ -53,13 +65,13 @@ nav li {
 }
 
 nav li :hover {
-    color:  pink;
+    color:  var(--tertiary-color);
 }
 
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--secondary-color);
 }
 
 .fadein { 
@@ -112,11 +124,11 @@ a {
 
 
 h2 :hover {
-    color: pink;
+    color: var(--tertiary-color);
 }
 
 h3 :hover{
-    color: pink; 
+    color: var(--tertiary-color); 
 }
 
 mark.red {
@@ -125,8 +137,8 @@ mark.red {
 }
 
 mark.black {
-    color:black;
-    background-color: crimson;
+    color:var(--tertiary-color);
+    background-color: var(--primary-color);
 }
 
 .card {
