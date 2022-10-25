@@ -90,6 +90,24 @@ a {
     }
 }
 
+.delayanimation { 
+    animation: delayAnimation ease 1.5s;  
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 3 important!;
+
+}
+
+@keyframes delayAnimation {
+    0% {
+        opacity: 0;
+    } 
+    100% {
+        opacity: 1;
+    }
+}
+
+
 .fadeinslow { 
     animation: fadeInAnimationSlow ease 2.5s;
     animation-iteration-count: 1;
