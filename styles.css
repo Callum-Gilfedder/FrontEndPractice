@@ -178,10 +178,19 @@ mark.black {
   }
 
 form { 
-    background-color: red ;
+    background-color: grey ;
+    border-radius: 40px;
     width: 600px;
     height: 600px;
     position: relative;
     left: 800px;
     bottom: 600px;
 }
+
+input {
+    border-radius: 10px;
+    border-color: grey;
+    border: none;
+    /* box-shadow: 1px 1px 10px; */
+}
+
