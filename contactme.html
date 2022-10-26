@@ -51,7 +51,7 @@
         <h2 style="position: relative; left: 210px; top: -22px;"><a href="https://leetcode.com/callumgilf/">Personal LeetCode Account</a></h2>
 
         
-        <form>
+        <form onsubmit = "SendEmail(); reset(); return false;">
         <input type="text" id="first name" placeholder="First name" required style = "width: 400px; height: 40px; position: relative; top: 100px; left: 90px;">
 
         <input type="text" id="last name" placeholder="Last name" required style = "width: 400px; height: 40px; position: relative; top: 120px; left: 90px;">
@@ -84,6 +84,32 @@
                             }  
 
                     }
+                    // email section
+         
+
+
+
                 </script>
+                <script src = "https://smtpjs.com/v3/smtp.js"></script>
+                <script>
+                    function SendEmail(){
+                        Email.send({
+                            Host : "smtp.elasticemail.com", // testing purposes might need to update for functionality
+                            Username : "callumgilf@mail.com",
+                            Password : "password",
+                            To : 'callumgilf@mail.com',
+                            From : document.getElementById("email").value,
+                            Subject : "New contact form submission",
+                            Body: "Test"
+                            // Body : "Name: " + document.getElementById("name").value
+                            //     + "<br> Email: " + document.getElementById("email").value  
+                        }).then(
+                        message => alert(message)
+                        );
+                    }
+                </script>
+
+
+
     </body>
 </html>
