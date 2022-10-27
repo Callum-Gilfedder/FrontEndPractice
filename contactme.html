@@ -26,7 +26,7 @@
                 <li><a class="navbar"  href="home.html">Home</a></li>
                 <li><a class="navbar" href="introduction2.html">Introduction</a></li>
                 <li><a class="navbar" href="experience-education2.html">Experience and education</a></li>
-                <li><a class="navbar" href="portfolio.html">Portfolio</a></li>
+                <li><a class="navbar" href="portfolio.html">Portfolio and CV</a></li>
                 <li><a class="navbar" href="contactme.html">Contact Me</a></li>
 
             </ul>
@@ -38,20 +38,20 @@
 
     </header>
         <hr>
-        <a href="https://www.linkedin.com/in/callum-gilfedder-21ab06222/"> <img src="linkedinicon.png" alt="" style="width:100px; position: relative; left: 60px; top: 70px;"></a>
-        <h2 style="position: relative; left: 210px; top: -22px;"><a href="https://www.linkedin.com/in/callum-gilfedder-21ab06222/">Personal LinkedIn Account</a></h2>
-        <a href="https://github.com/Callum-Gilfedder"><img src="githublogowhite.png" alt="" style="width:100px; position: relative; left: 60px; top: 70px;" id="githublogo"></a>
+        <a href="https://www.linkedin.com/in/callum-gilfedder-21ab06222/"> <img src="linkedinicon.png" alt="" style="width:100px; position: relative; left: 60px; top: 70px;" class="fadein1"></a>
+        <h2 style="position: relative; left: 210px; top: -22px;" class="fadein1"><a href="https://www.linkedin.com/in/callum-gilfedder-21ab06222/">Personal LinkedIn Account</a></h2>
+        <a href="https://github.com/Callum-Gilfedder" ><img src="githublogowhite.png" alt="" style="width:100px; position: relative; left: 60px; top: 70px;" id="githublogo" class="fadein2"></a>
 
-        <h2 style="position: relative; left: 210px; top: -22px;"><a href="https://www.linkedin.com/in/callum-gilfedder-21ab06222/">Personal GitHub Account</a></h2>
+        <h2 style="position: relative; left: 210px; top: -22px;" class="fadein2"><a href="https://www.linkedin.com/in/callum-gilfedder-21ab06222/">Personal GitHub Account</a></h2>
 
-        <a href="https://stackoverflow.com/users/20184438/callumgilf?tab=profile"> <img src="stackoverflowlogo.png" alt="" style="width:100px; position: relative; left: 60px; top: 70px;"></a>
-        <h2 style="position: relative; left: 210px; top: -22px;"><a href="https://stackoverflow.com/users/20184438/callumgilf?tab=profile">Personal StackOverflow Account</a></h2>
+        <a href="https://stackoverflow.com/users/20184438/callumgilf?tab=profile"> <img src="stackoverflowlogo.png" alt="" style="width:100px; position: relative; left: 60px; top: 70px;" class="fadein3"></a>
+        <h2 style="position: relative; left: 210px; top: -22px;"class="fadein3"><a href="https://stackoverflow.com/users/20184438/callumgilf?tab=profile">Personal StackOverflow Account</a></h2>
 
-        <a href="https://leetcode.com/callumgilf/"> <img src="leetcodelogowhite.png" alt="" style="width:100px; position: relative; left: 60px; top: 70px;" id="leetcodelogo"></a>
-        <h2 style="position: relative; left: 210px; top: -22px;"><a href="https://leetcode.com/callumgilf/">Personal LeetCode Account</a></h2>
+        <a href="https://leetcode.com/callumgilf/"> <img src="leetcodelogowhite.png" alt="" style="width:100px; position: relative; left: 60px; top: 70px;" id="leetcodelogo" class="fadein4"></a>
+        <h2 style="position: relative; left: 210px; top: -22px;" class="fadein4"><a href="https://leetcode.com/callumgilf/">Personal LeetCode Account</a></h2>
 
         
-        <form onsubmit = "SendEmail(); reset(); return false;">
+        <form onsubmit = "SendEmail(); reset(); return false;" class="fadein5">
         <input type="text" id="first name" placeholder="First name" required style = "width: 400px; height: 40px; position: relative; top: 100px; left: 90px;">
 
         <input type="text" id="last name" placeholder="Last name" required style = "width: 400px; height: 40px; position: relative; top: 120px; left: 90px;">
@@ -64,13 +64,14 @@
         </form>
 
         <h3 style = "position: relative; left: 500px; bottom: -100px " class="fadeinslow">
-        <h3 style="position: relative; left: 980px; bottom:1210px; font-size: 30px; ">Contact Form</h3>
+        <h3 style="position: relative; left: 980px; bottom:1210px; font-size: 30px; " class="fadein5">Contact Form</h3>
                  </a></h2>
         
                 <script> 
                     var icon = document.getElementById("icon");
                     icon.onclick = function(){
                         document.body.classList.toggle("altmode");
+                        localStorage.setItem('theme', 'altmode');
                             if(document.body.classList.contains("altmode")){
                                 icon.src = "paint-brush-icon-10.png";
                                 githublogo.src = "githublogoblack(1).png";
