@@ -79,26 +79,31 @@
                 const theme = localStorage.setItem("theme", "normal")
                 document.body.classList.toggle("altmode");
                 icon.src = "paint-brush-icon-10-inverted.png";
-                profile.src = "profile-pic (12).png";
+                
+                githublogo.src = "githublogowhite.png";
+                                leetcodelogo.src = "leetcodelogowhite.png"; 
             } else {
                 const theme = localStorage.setItem("theme", "altmode")
                 document.body.classList.toggle("altmode");
 
                 icon.src = "paint-brush-icon-10.png";
-                profile.src = "profile-pic (13).png";
-            }
+                githublogo.src = "githublogoblack(1).png";
+                leetcodelogo.src = "leetcodelogoblack.png";
+                           }
         }
 
         if (localStorage.getItem("theme") == "altmode") {
         document.body.classList.toggle("altmode");
     
         icon.src = "paint-brush-icon-10.png";
-            profile.src = "profile-pic (13).png";
+        githublogo.src = "githublogoblack(1).png";
+                leetcodelogo.src = "leetcodelogoblack.png";
+
     
         } else {
             icon.src = "paint-brush-icon-10-inverted.png";
-        profile.src = "profile-pic (12).png";    
-
+            githublogo.src = "githublogowhite.png";
+                                leetcodelogo.src = "leetcodelogowhite.png";
 
         };
         
