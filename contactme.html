@@ -51,14 +51,14 @@
         <h2 style="position: relative; left: 210px; top: -22px;" class="fadein4"><a href="https://leetcode.com/callumgilf/">Personal LeetCode Account</a></h2>
 
         
-        <form onsubmit = "SendEmail(); reset(); return false;" class="fadein5">
-        <input type="text" id="first name" placeholder="First name" required style = "width: 400px; height: 40px; position: relative; top: 100px; left: 90px;">
+        <form action="https://formsubmit.co/4b9f20b435f24b46bf78a2b2ac47cbda" method="POST" class="fadein5">
+        <input type="name" name = "name" id="first name" placeholder="First name" required style = "width: 400px; height: 40px; position: relative; top: 100px; left: 90px;">
 
-        <input type="text" id="last name" placeholder="Last name" required style = "width: 400px; height: 40px; position: relative; top: 120px; left: 90px;">
+        <input type="name" id="last name" placeholder="Last name" required style = "width: 400px; height: 40px; position: relative; top: 120px; left: 90px;">
 
-        <input type="text" id="email" placeholder="Email address" required style = "width: 400px; height: 40px; position: relative; top: 140px; left: 90px;">
+        <input type="email" name = "email" id="email" placeholder="Email address" required style = "width: 400px; height: 40px; position: relative; top: 140px; left: 90px;">
 
-        <textarea placeholder="Enter your message here... (not required)" id="message" cols="0" rows="10" required style = "width: 400px; height: 160px; position: relative; top: 160px; left: 90px; border: none; border-radius: 10px;"></textarea>
+        <textarea type ="text" name = "message" placeholder="Enter your message here... (not required)" id="message" cols="0" rows="10" required style = "width: 400px; height: 160px; position: relative; top: 160px; left: 90px; border: none; border-radius: 10px;"  required></textarea>
 
         <button type = "submit" style = "width: 410px; height: 40px; position: relative; top: 180px; left: 90px; border-radius: 10px; border: none;">Submit</button>
         </form>
@@ -113,24 +113,7 @@
 
 
                 </script>
-                <script src = "https://smtpjs.com/v3/smtp.js"></script>
-                <script>
-                    function SendEmail(){
-                        Email.send({
-                            Host : "smtp.elasticemail.com", // testing purposes might need to update for functionality
-                            Username : "callumgilf@mail.com",
-                            Password : "password",
-                            To : 'callumgilf@mail.com',
-                            From : document.getElementById("email").value,
-                            Subject : "New contact form submission",
-                            Body: "Test"
-                            // Body : "Name: " + document.getElementById("name").value
-                            //     + "<br> Email: " + document.getElementById("email").value  
-                        }).then(
-                        message => alert(message)
-                        );
-                    }
-                </script>
+
 
 
 
