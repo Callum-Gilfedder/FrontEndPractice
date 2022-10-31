@@ -80,33 +80,36 @@
     <h2 style= "position: relative; left: 1225px; bottom: 575px; font-size: 35px;" class="fadeinveryslow"> <a href = "contactme.html"> 
         &#9735; Contact me </a></h2>
 
-        <script> 
-  var icon = document.getElementById("icon");
+        <script>
+
+        var icon = document.getElementById("icon");
         icon.onclick = function(){
             if (localStorage.getItem("theme") == "altmode") {
                 const theme = localStorage.setItem("theme", "normal")
                 document.body.classList.toggle("altmode");
                 icon.src = "paint-brush-icon-10-inverted.png";
-                profile.src = "profile-pic (12).png";
+                        githublogo.src = "githublogowhite.png";
+
             } else {
                 const theme = localStorage.setItem("theme", "altmode")
                 document.body.classList.toggle("altmode");
 
                 icon.src = "paint-brush-icon-10.png";
-                profile.src = "profile-pic (13).png";
+                        githublogo.src = "githublogoblack(1).png";
+
+
             }
-        }
+        };
 
         if (localStorage.getItem("theme") == "altmode") {
         document.body.classList.toggle("altmode");
     
         icon.src = "paint-brush-icon-10.png";
-            profile.src = "profile-pic (13).png";
+                        githublogo.src = "githublogoblack(1).png";
     
         } else {
             icon.src = "paint-brush-icon-10-inverted.png";
-        profile.src = "profile-pic (12).png";    
-
+                        githublogo.src = "githublogowhite.png";
 
         };
     
