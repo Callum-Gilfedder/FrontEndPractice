@@ -1,7 +1,5 @@
 # Front end practice
 
-Front end practice project
-
 This is a practice front end project. This is a functional website that includes a dark / light theme that uses JS to remember the state of the theme when traversing over different pages. It has some basic CSS transitions and a functional contact form that uses an api to send myself emails.
 
 **Possible improvements:**
