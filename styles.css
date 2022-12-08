@@ -1,11 +1,11 @@
 :root {
-    --primary-color: black;
-    --secondary-color: white;
+    --primary-color: #191A19;
+    --secondary-color: #EEEEEE;
     --tertiary-color: #00FF00;
 }
 
 .altmode {
-    --primary-color: white;
+    --primary-color: #EEEEEE;
     --secondary-color: black;
     --tertiary-color: crimson;
 }
