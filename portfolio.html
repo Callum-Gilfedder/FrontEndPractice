@@ -22,8 +22,8 @@
             <ul>
                 <li><a class="navbar"  href="home.html">Home</a></li>
                 <li><a class="navbar" href="introduction2.html">Introduction</a></li>
-                <li><a class="navbar" href="experience-education2.html">Experience and education</a></li>
-                <li><a class="navbar" href="portfolio.html">Portfolio and CV</a></li>
+                <li><a class="navbar" href="portfolio.html">Portfolio</a></li>
+                <li><a class="navbar" href="CV.html">CV</a></li>
                 <li><a class="navbar" href="contactme.html">Contact Me</a></li>
 
             </ul>
@@ -34,87 +34,42 @@
         
 
 
-
     </header>
-
-    
-   
-
         <hr>
-        
-        <a href="https://github.com/Callum-Gilfedder"><img src="githublogowhite.png" alt="" style="width:100px; position: relative; left: 60px; top: 70px;" id="githublogo" class="fadein1"></a>
+            <h2 style="margin-left: 700px; margin-right: auto; margin-top: 50px;">Mathematics Bachelors</h2>
 
-        <h2 style="position: relative; left: 175px; top: -20px;"><a href="https://github.com/Callum-Gilfedder"class="fadein1">Personal GitHub Account</a></h2>
-        
-        <h2 style= "position: relative; left: 185px; top: -35px; font-size: 20px;" class="fadein"> <a href = "https://github.com/Callum-Gilfedder/FrontEndPractice" class="fadein2"> 
-        &#9735; This website's repository </a></h2>
-        <h2 style= "position: relative; left: 185px; top: -35px; font-size: 20px;" class="fadein"> <a href = "contactme.html" class="fadein2"> 
-        &#9735; Weather Application - Python</a></h2>
-        <h2 style= "position: relative; left: 185px; top: -35px; font-size: 20px;" class="fadein"> <a href = "contactme.html" class="fadein3"> 
-        &#9735; Quiz Application - Python </a></h2>
-        <h2 style= "position: relative; left: 185px; top: -35px; font-size: 20px;" class="fadein"> <a href = "contactme.html"class="fadein3"> 
-            &#9735; Project 3 </a></h2>
-
-        <h2 style= "position: relative; left: 185px; top: -35px; font-size: 20px;" class="fadein"> <a href = "contactme.html"class="fadein4"> 
-        &#9735; Project 4 </a></h2>
-        <h2 style= "position: relative; left: 185px; top: -35px; font-size: 20px;" class="fadein"> <a href = "contactme.html"class="fadein4"> 
-        &#9735; Project 5 </a></h2>
-        <h2 style= "position: relative; left: 185px; top: -35px; font-size: 20px;" class="fadein"> <a href = "contactme.html"class="fadein5"> 
-            &#9735; Project 6 </a></h2>
-            <h2 style= "position: relative; left: 185px; top: -35px; font-size: 20px;" class="fadein"> <a href = "contactme.html"class="fadein5"> 
-                &#9735; Project 7 </a></h2>
-                <h2 style= "position: relative; left: 185px; top: -35px; font-size: 20px;" class="fadein"> <a href = "contactme.html"class="fadein5"> 
-                    &#9735; Project 8 </a></h2>
-                    <h2 style= "position: relative; left: 185px; top: -35px; font-size: 20px;" class="fadein"> <a href = "contactme.html"class="fadein5"> 
-                        &#9735; Project 9 </a></h2>
-                        <h2 style= "position: relative; left: 185px; top: -35px; font-size: 20px;" class="fadein"> <a href = "contactme.html"class="fadein5"> 
-                            &#9735; Project 10 </a></h2>
-                                    
-
-
-
-
-        <embed src="Callum_Gilfedder_-_Cloud_Specialist ALT.pdf#toolbar=0" width="700" height="600" 
-    type="application/pdf" style="position: relative; left: 720px; bottom: 575px;" class="fadeindelay">
-
-    <h2 style= "position: relative; left: 1225px; bottom: 575px; font-size: 35px;" class="fadeinveryslow"> <a href = "contactme.html"> 
-        &#9735; Contact me </a></h2>
-
-        <script>
-
-        var icon = document.getElementById("icon");
+        <script> 
+    
+    var icon = document.getElementById("icon");
         icon.onclick = function(){
             if (localStorage.getItem("theme") == "altmode") {
                 const theme = localStorage.setItem("theme", "normal")
                 document.body.classList.toggle("altmode");
                 icon.src = "paint-brush-icon-10-inverted.png";
-                        githublogo.src = "githublogowhite.png";
-
+                profile.src = "profile-pic (12).png";
             } else {
                 const theme = localStorage.setItem("theme", "altmode")
                 document.body.classList.toggle("altmode");
 
                 icon.src = "paint-brush-icon-10.png";
-                        githublogo.src = "githublogoblack(1).png";
-
-
+                profile.src = "profile-pic (13).png";
             }
-        };
+        }
 
         if (localStorage.getItem("theme") == "altmode") {
         document.body.classList.toggle("altmode");
     
         icon.src = "paint-brush-icon-10.png";
-                        githublogo.src = "githublogoblack(1).png";
+            profile.src = "profile-pic (13).png";
     
         } else {
             icon.src = "paint-brush-icon-10-inverted.png";
-                        githublogo.src = "githublogowhite.png";
+        profile.src = "profile-pic (12).png";    
+
 
         };
-    
         </script>
-
+            
 
     </body>
 </html>

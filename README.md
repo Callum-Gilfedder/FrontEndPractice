@@ -8,12 +8,13 @@ This is a practice front end project. This is a functional website that includes
 
 
 **TO-DO:**
-
 * Home page is fine. No changes needed as of now.
 * On every page, the navigation button to the next page looks bad, change this.
 * The experience and education page needs to be entirely redone.
 * The portfolio and CV page doesn't look great.
 * The contact me page is acceptable but the form needs to be updated to look much more professional.
+* Website is not responsive, fix this. Maybe doesn't need to be entirely redone but add media queries for different sized screens.
+* Windows + Alt + R xbox game bar allows screenrecording. Make video of projects / gifs if thats too much.
 
 **Done:**
 * ~~ Black background is too harsh, change to a slightly light black. ~~
