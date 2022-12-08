@@ -8,9 +8,13 @@ This is a practice front end project. This is a functional website that includes
 
 
 **TO-DO:**
-* Could add additional CSS fade in animations to make the flow of the fade ins on pages with more elemnets look nicer.
-* Also want to implement a delayed fade in animation on the tertiary colored text.
-* Could add CSS slide animations possibly?
-* On the Home page, could add some CSS text animation?
-* Once completed the JS implementations, we need to try create a new website with a responsive design or we need to adapt this one.
-* Experience and education page is not good enough.
+
+* Home page is fine. No changes needed as of now.
+* On every page, the navigation button to the next page looks bad, change this.
+* The experience and education page needs to be entirely redone.
+* The portfolio and CV page doesn't look great.
+* The contact me page is acceptable but the form needs to be updated to look much more professional.
+
+**Done:**
+* ~~ Black background is too harsh, change to a slightly light black. ~~
+* ~~ White background might have same issue. ~~
