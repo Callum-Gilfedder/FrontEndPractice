@@ -302,5 +302,26 @@ textarea {
     }
 }
 
+.gif-container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 40% 40%;
+    gap: 10rem;
+    margin-left: 10%;
+    margin-right: auto;
+    height: 50rem;
+    width: 90rem;
+}
+
+.container-item {
+    height: 400px;
+    width: 700px;
+
+
+}
+
+
+
+
 
 

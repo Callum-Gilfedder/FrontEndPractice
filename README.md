@@ -8,6 +8,8 @@ This is a practice front end project. This is a functional website that includes
 
 
 **TO-DO:**
+* Add simulation gif from my dissertation. 
+* Add maybe a fourth project as a display
 * Home page is fine. No changes needed as of now.
 * On every page, the navigation button to the next page looks bad, change this.
 * The experience and education page needs to be entirely redone.
